@@ -1,0 +1,109 @@
+body {
+    background: linear-gradient(145deg,  #402c50, #eaafc8);
+    color: #261940;
+    font-family: Arial, sans-serif;
+    margin: 0; /* Remove margens padrão do body */
+    padding: 0; /* Remove padding padrão do body */
+}
+
+header {
+    background-color: transparent !important;
+    margin-bottom: 1rem; /* Espaço abaixo do cabeçalho */
+}
+
+.navbar {
+    background-color: transparent !important;
+}
+
+.navbar-brand {
+    color: rgb(215, 192, 231);
+    font-family: fantasy;
+    font-size: 5rem;
+}
+
+.navbar-brand:hover{
+    color: rgb(215, 192, 231);
+}
+.navbar-nav {
+    margin-left: auto; /* Alinha os itens à direita */
+}
+
+.nav-links {
+    display: flex;
+    justify-content: flex-end; /* Alinha os links à direita */
+    gap: 10px; /* Espaço entre os links */
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: transparent;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+    font-size: 1.5rem;
+}
+
+.nav-link:hover {
+    background-color: #d3c2e0; /* Cor de fundo ao passar o mouse */
+    color: #150f1f; /* Cor do texto ao passar o mouse */
+}
+
+.navbar-nav .nav-item {
+    margin-left: 1rem; /* Espaço entre os itens */
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto; /* Centraliza o container horizontalmente */
+    overflow-y: auto; /* Permite rolagem caso necessário */
+}
+
+.card {
+    background-color: rgba(241, 241, 244, 0.992);
+    border: none;
+    border-radius: 15px;
+    margin-bottom: 1rem;
+}
+
+.card-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(241, 241, 244, 0.992);
+    border-bottom: none;
+    padding: 1rem 1.5rem;
+    border-radius: 15px 15px 0 0;
+}
+
+.card-header i {
+    margin-right: 0.5rem;
+}
+
+.card-body {
+    padding: 1.5rem;
+    text-align: center; /* Centraliza o botão */
+}
+
+.msg-info {
+    font-size: 0.9rem;
+    color: #261940;
+}
+
+.icon {
+    font-size: 1.5rem;
+    color: #f61d94;
+}
+
+.btn-entrar {
+    background-color:  #402c50;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    padding: 0.5rem 1rem;
+}
+
+.btn-entrar:hover {
+    background-color:  #402c50;;
+    color: #fff;
+}
